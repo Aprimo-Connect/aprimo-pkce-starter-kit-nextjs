@@ -1,0 +1,7 @@
+{
+  "mybasket": "https://aprimo-editor-tools.vercel.app/my-basket",
+  "myitem": "https://aprimo-editor-tools.vercel.app/my-item",
+
+  "mybasketlocal": "http://localhost:3001/my-basket",
+  "myitemlocal": "http://localhost:3000/my-item"
+}
