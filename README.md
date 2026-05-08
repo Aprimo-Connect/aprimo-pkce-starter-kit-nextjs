@@ -125,5 +125,3 @@ Then add the action to the appropriate Aprimo menu:
 3. **Redirect** — The webhook returns the app URL with the handle (or record ID for single-item mode). Aprimo opens it in the user's browser.
 4. **PKCE auth** — The app authenticates automatically via PKCE OAuth on page load.
 5. **Retrieve basket** — Once authenticated, the page fetches the record list from Supabase using the `requestId`, then deletes the row.
-
-![Data Flow](public/images/data-flow.png)
