@@ -11,7 +11,7 @@ function MyItemContent() {
   const searchParams = useSearchParams()
   const recordId = searchParams.get("record")
   const { client, isConnected } = useAprimo()
-  const [record, setRecord] = useState<unknown>(null)
+  const [record, setRecord] = useState<object | null>(null)
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
